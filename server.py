@@ -13,7 +13,7 @@ def emotion_analyzer():
     
     # Check if the dominant emotion is invalid or None
     if response['dominant_emotion'] is None:
-        return "Invalid text! Please try again"
+        return "Invalid text! Please try again!"
     
     # Format and return the system response
     return (
